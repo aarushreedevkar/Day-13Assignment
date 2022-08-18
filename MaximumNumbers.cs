@@ -8,7 +8,7 @@ namespace GenericsPrograms
 {
     public class MaximumNumbers
     {
-        public static int MaxIntNumber(int firstnumb, int secondnumb, int thirdnumb)
+        public static float MaxFloatNumber(float firstnumb, float secondnumb, float thirdnumb)
         {
             if (firstnumb.CompareTo(secondnumb) > 0 && firstnumb.CompareTo(thirdnumb) > 0)
             {
@@ -30,6 +30,13 @@ namespace GenericsPrograms
         }
     }
 
+
+
+
+
 }
+    
+
+
     
 
