@@ -12,14 +12,14 @@ namespace GenericsPrograms
         {
             foreach (int element in arr)
             {
-                Console.Write(element);
+                Console.Write(element + "\t");
             }
         }
         public static void ToPrintDouble(double[] arr)
         {
             foreach (double element in arr)
             {
-                Console.Write(element);
+                Console.Write(element + "\t");
             }
         }
 
@@ -27,7 +27,7 @@ namespace GenericsPrograms
         {
             foreach (char element in arr)
             {
-                Console.Write(element);
+                Console.Write(element + "\t");
             }
         }
     }
